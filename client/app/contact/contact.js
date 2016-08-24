@@ -4,7 +4,7 @@ angular.module('personalWebsiteApp')
   .config(function($stateProvider) {
     $stateProvider
       .state('contact', {
-        url: '/',
+        url: '/contact',
         template: '<contact></contact>'
       });
   });
